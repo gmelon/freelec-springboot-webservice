@@ -27,4 +27,12 @@ public class PostsApiController {
     public PostsResponseDto findById(@PathVariable Long id) {
         return postsService.findById(id);
     }
+
+    @DeleteMapping("/api/v1/posts/{id}")
+    public Long delete(@PathVariable Long id){
+        // TODO - Service에선 id를 반환하지 않는 이유? 관례가 궁금
+        postsService.delete(id);
+
+        return id;
+    }
 }
