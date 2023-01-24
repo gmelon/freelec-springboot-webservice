@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="게시글 수정/삭제까지 완료">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-oauth.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="freelec-springboot-webservice" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="JavaScript File" />
+        <option value="package.json" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.24/6cd791c2d4822655a504537d15919be1a4a3e5b9/spring-web-5.3.24-sources.jar!/org/springframework/http/HttpEntity.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.24/6cd791c2d4822655a504537d15919be1a4a3e5b9/spring-web-5.3.24-sources.jar!/org/springframework/http/ResponseEntity.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isDesignerTabSelected" value="false" />
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KVDpEyzR1EJY9qGhVZzGKSUWp9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shhyun/Documents/projects/study/Spring/freelec-springboot-webservice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c3bb81479bf226036c87288f0f6b67d8&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.gmelon.spring.springboot.web" />
+      <recent name="dev.gmelon.spring.springboot.domain.posts" />
+      <recent name="dev.gmelon.spring.springboot.web.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HelloResponseDtoTest.name">
+    <configuration name="HelloResponseDtoTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gmelon.spring.springboot.web.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.gmelon.spring.springboot.web.dto" />
+      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.web.dto.HelloResponseDtoTest" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexControllerTest.메인페이지_로딩" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gmelon.spring.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.gmelon.spring.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.web.IndexControllerTest" />
+      <option name="METHOD_NAME" value="메인페이지_로딩" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsApiControllerTest.Posts_등록된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gmelon.spring.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.gmelon.spring.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.web.PostsApiControllerTest" />
+      <option name="METHOD_NAME" value="Posts_등록된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsRepositoryTest.BaseTimeEntity_등록" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gmelon.spring.springboot.domain.posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.gmelon.spring.springboot.domain.posts" />
+      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.domain.posts.PostsRepositoryTest" />
+      <option name="METHOD_NAME" value="BaseTimeEntity_등록" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsRepositoryTest.게시글저장_불러오기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gmelon.spring.springboot.domain.posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.gmelon.spring.springboot.domain.posts" />
+      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.domain.posts.PostsRepositoryTest" />
+      <option name="METHOD_NAME" value="게시글저장_불러오기" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="freelec-springboot-webservice.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.gmelon.spring.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HelloResponseDtoTest.name" />
+        <item itemvalue="JUnit.PostsApiControllerTest.Posts_등록된다" />
+        <item itemvalue="JUnit.IndexControllerTest.메인페이지_로딩" />
+        <item itemvalue="JUnit.PostsRepositoryTest.BaseTimeEntity_등록" />
+        <item itemvalue="JUnit.PostsRepositoryTest.게시글저장_불러오기" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="" />
+      <created>1674051037785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674051037785</updated>
+      <workItem from="1674051038792" duration="6000" />
+      <workItem from="1674051079799" duration="2555000" />
+      <workItem from="1674104949600" duration="132000" />
+      <workItem from="1674105084111" duration="377000" />
+      <workItem from="1674105469156" duration="88000" />
+      <workItem from="1674105565285" duration="4579000" />
+      <workItem from="1674110282848" duration="33449000" />
+      <workItem from="1674485197435" duration="15000" />
+      <workItem from="1674546484441" duration="4393000" />
+    </task>
+    <task id="LOCAL-00001" summary="test: HelloController - mvc 샘플 테스트 코드 작성">
+      <created>1674106786580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674106786580</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: HelloController가 HelloResponseDto를 반환하도록 추가">
+      <created>1674108210853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674108210853</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Posts와 PostsRepository 추가">
+      <created>1674110413205</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674110413205</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: application.yml에 db 관련 설정 작성">
+      <created>1674111378049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674111378049</updated>
+    </task>
+    <task id="LOCAL-00005" summary="엔티티, JPA, DB 완료">
+      <created>1674193295863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674193295863</updated>
+    </task>
+    <task id="LOCAL-00006" summary="글 등록 화면까지 완료">
+      <created>1674203138964</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674203138964</updated>
+    </task>
+    <task id="LOCAL-00007" summary="게시글 수정/삭제까지 완료">
+      <created>1674549983941</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674549983941</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test: HelloController - mvc 샘플 테스트 코드 작성" />
+    <MESSAGE value="feat: HelloController가 HelloResponseDto를 반환하도록 추가" />
+    <MESSAGE value="feat: Posts와 PostsRepository 추가" />
+    <MESSAGE value="chore: application.yml에 db 관련 설정 작성" />
+    <MESSAGE value="엔티티, JPA, DB 완료" />
+    <MESSAGE value="글 등록 화면까지 완료" />
+    <MESSAGE value="게시글 수정/삭제까지 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="게시글 수정/삭제까지 완료" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
