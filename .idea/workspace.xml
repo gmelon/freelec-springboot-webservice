@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="게시글 수정/삭제까지 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-oauth.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/CustomOAuth2UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/SecutiryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/dto/OAuthAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/dto/SessionUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/domain/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/domain/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/domain/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +53,8 @@
         <option value="JUnit5 Test Class" />
         <option value="JavaScript File" />
         <option value="package.json" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -104,7 +114,7 @@
       <recent name="dev.gmelon.spring.springboot.web.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HelloResponseDtoTest.name">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="HelloResponseDtoTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot-webservice.test" />
       <extension name="coverage">
@@ -218,7 +228,7 @@
       <workItem from="1674105565285" duration="4579000" />
       <workItem from="1674110282848" duration="33449000" />
       <workItem from="1674485197435" duration="15000" />
-      <workItem from="1674546484441" duration="4393000" />
+      <workItem from="1674546484441" duration="12452000" />
     </task>
     <task id="LOCAL-00001" summary="test: HelloController - mvc 샘플 테스트 코드 작성">
       <created>1674106786580</created>
