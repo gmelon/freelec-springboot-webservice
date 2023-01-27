@@ -5,6 +5,6 @@ spring:
         - real
         - real-db
         - oauth
-      local-profile:
+      local:
         - local
         - oauth

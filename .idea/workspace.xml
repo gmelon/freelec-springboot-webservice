@@ -221,7 +221,7 @@
       <workItem from="1674105565285" duration="4579000" />
       <workItem from="1674110282848" duration="33449000" />
       <workItem from="1674485197435" duration="15000" />
-      <workItem from="1674546484441" duration="35992000" />
+      <workItem from="1674546484441" duration="36836000" />
     </task>
     <task id="LOCAL-00001" summary="test: HelloController - mvc 샘플 테스트 코드 작성">
       <created>1674106786580</created>
@@ -307,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674803236696</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="profile group 설정 수정">
+      <created>1674804014273</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674804014273</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
