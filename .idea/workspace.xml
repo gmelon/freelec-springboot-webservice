@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="real 설정 파일 추가">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aad0d85e-b5fd-4a4e-aec2-67ab624f8861.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aad0d85e-b5fd-4a4e-aec2-67ab624f8861.xml" afterDir="false" />
+    <list default="true" id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="profile group 설정 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -223,7 +221,7 @@
       <workItem from="1674105565285" duration="4579000" />
       <workItem from="1674110282848" duration="33449000" />
       <workItem from="1674485197435" duration="15000" />
-      <workItem from="1674546484441" duration="35189000" />
+      <workItem from="1674546484441" duration="35992000" />
     </task>
     <task id="LOCAL-00001" summary="test: HelloController - mvc 샘플 테스트 코드 작성">
       <created>1674106786580</created>
@@ -302,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674800893052</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="profile group 설정 수정">
+      <created>1674803236696</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674803236696</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +335,8 @@
     <MESSAGE value="스프링 시큐리티 OAuth 기본 완료" />
     <MESSAGE value="스프링 시큐리티 통합 테스트 완료" />
     <MESSAGE value="real 설정 파일 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="real 설정 파일 추가" />
+    <MESSAGE value="profile group 설정 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile group 설정 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
