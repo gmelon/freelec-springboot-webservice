@@ -1,0 +1,7 @@
+spring:
+  session:
+    store-type: jdbc
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL57Dialect
