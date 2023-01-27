@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="스프링 시큐리티 OAuth 기본 완료">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/LoginUserArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
+    <list default="true" id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="스프링 시큐리티 통합 테스트 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/dto/OAuthAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/dto/OAuthAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/web/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot/web/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot/web/HelloControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot/web/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot/web/IndexControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot/web/PostsApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +223,7 @@
       <workItem from="1674105565285" duration="4579000" />
       <workItem from="1674110282848" duration="33449000" />
       <workItem from="1674485197435" duration="15000" />
-      <workItem from="1674546484441" duration="28801000" />
+      <workItem from="1674546484441" duration="29430000" />
     </task>
     <task id="LOCAL-00001" summary="test: HelloController - mvc 샘플 테스트 코드 작성">
       <created>1674106786580</created>
@@ -296,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674625434510</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="스프링 시큐리티 통합 테스트 완료">
+      <created>1674744320692</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674744320692</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +314,8 @@
     <MESSAGE value="글 등록 화면까지 완료" />
     <MESSAGE value="게시글 수정/삭제까지 완료" />
     <MESSAGE value="스프링 시큐리티 OAuth 기본 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 시큐리티 OAuth 기본 완료" />
+    <MESSAGE value="스프링 시큐리티 통합 테스트 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 시큐리티 통합 테스트 완료" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
