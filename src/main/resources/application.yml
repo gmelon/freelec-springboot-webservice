@@ -1,10 +1,5 @@
 spring:
   profiles:
     group:
-      real:
-        - real
-        - real-db
-        - oauth
-      local:
-        - local
-        - oauth
+      real: real, real-db, oauth
+      local: local, oauth
