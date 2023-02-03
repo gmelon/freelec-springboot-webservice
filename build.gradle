@@ -1,3 +1,5 @@
+import java.time.LocalDateTime
+
 plugins {
     id 'java'
     id 'org.springframework.boot' version '2.6.9'
@@ -5,7 +7,7 @@ plugins {
 }
 
 group 'dev.gmelon.spring'
-version '1.0.1-SNAPSHOT'
+version '1.0.1-SNAPSHOT-' + LocalDateTime.now().format("yyyyMMddHHmmss")
 sourceCompatibility = '11'
 
 jar {
