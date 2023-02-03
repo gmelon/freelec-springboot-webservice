@@ -1,0 +1,12 @@
+server:
+  port: 8082
+  profiles:
+    include:
+      - oauth
+      - real-db
+  session:
+    store-type: jdbc
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL57Dialect

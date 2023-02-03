@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="plain jar 파일 생성 방지">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/web/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot/config/auth/ProfileControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot/web/ProfileControllerTest.java" afterDir="false" />
+    <list default="true" id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="profile Controller 추가">
+      <change afterPath="$PROJECT_DIR$/scripts/health.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/profile.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/stop.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/switch.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-real1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-real2.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/SecutiryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/SecutiryConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +125,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="dev.gmelon.spring.springboot.config.auth" />
@@ -439,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675426193671</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="profile Controller 추가">
+      <created>1675430082970</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675430082970</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +500,8 @@
     <MESSAGE value="메인 페이지 테스트 케이스 수정" />
     <MESSAGE value="deploy 스크립트 수정" />
     <MESSAGE value="plain jar 파일 생성 방지" />
-    <option name="LAST_COMMIT_MESSAGE" value="plain jar 파일 생성 방지" />
+    <MESSAGE value="profile Controller 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile Controller 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
