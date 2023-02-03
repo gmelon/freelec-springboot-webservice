@@ -3,6 +3,8 @@ name: freelec-webservice-CI
 env:
   S3_BUCKET_NAME: freelec-build-s3
   PROJECT_NAME: freelec-springboot-webservice
+  CODEDEPLOY_APPLICATION_NAME: freelec-springboot-webservice-codedeploy
+  CODEDEPLOY_DEPLOY_GROUP_NAME: freelec-springboot-webservice-deploy-group
 
 on:
   push:
@@ -43,3 +45,6 @@ jobs:
 
     - name: Upload to S3
       run: aws s3 cp --region ap-northeast-2 ./$GITHUB_SHA.zip s3://$S3_BUCKET_NAME/$PROJECT_NAME/$GITHUB_SHA.zip
+
+    - name: Code Deploy
+      run: aws deploy create-deployment --application-name $CODEDEPLOY_APPLICATION_NAME --deployment-config-name CodeDeployDefault.AllAtOnce --deployment-group-name $CODEDEPLOY_DEPLOY_GROUP_NAME --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=$PROJECT_NAME/$GITHUB_SHA.zip
