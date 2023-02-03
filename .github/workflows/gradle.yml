@@ -33,11 +33,11 @@ jobs:
         arguments: build
 
     - name: Select deploy files
-      run:
-        - mkdir -p before-deploy
-        - cp scripts/*.sh before-deploy/
-        - cp appspec.yml before-deploy/
-        - cp build.libs/*.jar before-deploy/
+      run: |
+        mkdir -p before-deploy
+        cp scripts/*.sh before-deploy/
+        cp appspec.yml before-deploy/
+        cp build.libs/*.jar before-deploy/
       shell: bash
 
     - name: Make zip file
