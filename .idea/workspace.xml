@@ -126,7 +126,7 @@
       <recent name="dev.gmelon.spring.springboot.web.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IndexControllerTest">
+  <component name="RunManager" selected="JUnit.IndexControllerTest.메인페이지_로딩">
     <configuration name="All in freelec-springboot-webservice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot-webservice.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -165,7 +165,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostsApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IndexControllerTest.메인페이지_로딩" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot-webservice.test" />
       <extension name="coverage">
         <pattern>
@@ -174,8 +174,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dev.gmelon.spring.springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.web.PostsApiControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.web.IndexControllerTest" />
+      <option name="METHOD_NAME" value="메인페이지_로딩" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IndexControllerTest.메인페이지_로딩" />
         <item itemvalue="JUnit.IndexControllerTest" />
         <item itemvalue="JUnit.All in freelec-springboot-webservice.test" />
         <item itemvalue="JUnit.HelloControllerTest" />
         <item itemvalue="JUnit.springboot in freelec-springboot-webservice.test" />
-        <item itemvalue="JUnit.PostsApiControllerTest" />
       </list>
     </recent_temporary>
   </component>
