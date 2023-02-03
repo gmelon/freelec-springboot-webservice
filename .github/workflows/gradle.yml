@@ -41,11 +41,10 @@ jobs:
       shell: bash
 
     - name: Make zip file
-      run: cd before-deploy && zip -r ./$GITHUB_SHA.zip .
-      shell: bash
-
-    - name: Move zip file to root directory
-      run: cd ../ && mv before-deploy/$GITHUB_SHA.zip ./
+      run: |
+        cd before-deploy
+        zip -r ../$PROJECT_NAME.zip .
+        cd ../
       shell: bash
 
     - name: Configure AWS credentials
@@ -56,7 +55,7 @@ jobs:
         aws-region: ${{ secrets.AWS_REGION }}
 
     - name: Upload to S3
-      run: aws s3 cp --region ap-northeast-2 ./$GITHUB_SHA.zip s3://$S3_BUCKET_NAME/$PROJECT_NAME/$GITHUB_SHA.zip
+      run: aws s3 cp --region ap-northeast-2 ./$PROJECT_NAME.zip s3://$S3_BUCKET_NAME/$PROJECT_NAME/$PROJECT_NAME.zip
 
     - name: Code Deploy
-      run: aws deploy create-deployment --application-name $CODEDEPLOY_APPLICATION_NAME --deployment-config-name CodeDeployDefault.AllAtOnce --deployment-group-name $CODEDEPLOY_DEPLOY_GROUP_NAME --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=$PROJECT_NAME/$GITHUB_SHA.zip
+      run: aws deploy create-deployment --application-name $CODEDEPLOY_APPLICATION_NAME --deployment-config-name CodeDeployDefault.AllAtOnce --deployment-group-name $CODEDEPLOY_DEPLOY_GROUP_NAME --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=$PROJECT_NAME/$PROJECT_NAME.zip
