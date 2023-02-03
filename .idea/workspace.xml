@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="plain jar 파일 생성 방지" />
+    <list default="true" id="107f893e-c20d-45ac-981e-02852b8b7b04" name="Changes" comment="plain jar 파일 생성 방지">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/web/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot/config/auth/ProfileControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot/web/ProfileControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/SecutiryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gmelon/spring/springboot/config/auth/SecutiryConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,13 +55,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="JavaScript File" />
         <option value="package.json" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -117,35 +123,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.gmelon.spring.springboot.config.auth" />
       <recent name="dev.gmelon.spring.springboot.web" />
       <recent name="dev.gmelon.spring.springboot.domain.posts" />
       <recent name="dev.gmelon.spring.springboot.web.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IndexControllerTest.메인페이지_로딩">
-    <configuration name="All in freelec-springboot-webservice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="freelec-springboot-webservice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="freelec-springboot-webservice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.gmelon.spring.springboot.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.gmelon.spring.springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.web.HelloControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProfileControllerTest.profile은_인증없이_호출된다">
     <configuration name="IndexControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot-webservice.test" />
       <extension name="coverage">
@@ -177,10 +161,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="springboot in freelec-springboot-webservice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot-webservice.test" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/dev/gmelon/spring/springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gmelon.spring.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.gmelon.spring.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.web.ProfileControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileControllerTest.profile은_인증없이_호출된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gmelon.spring.springboot.config.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.gmelon.spring.springboot.config.auth" />
+      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.config.auth.ProfileControllerTest" />
+      <option name="METHOD_NAME" value="profile은_인증없이_호출된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileControllerTest.real_profile이_조회된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gmelon.spring.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.gmelon.spring.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="dev.gmelon.spring.springboot.web.ProfileControllerTest" />
+      <option name="METHOD_NAME" value="real_profile이_조회된다" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProfileControllerTest.profile은_인증없이_호출된다" />
+        <item itemvalue="JUnit.ProfileControllerTest" />
+        <item itemvalue="JUnit.ProfileControllerTest.real_profile이_조회된다" />
         <item itemvalue="JUnit.IndexControllerTest.메인페이지_로딩" />
         <item itemvalue="JUnit.IndexControllerTest" />
-        <item itemvalue="JUnit.All in freelec-springboot-webservice.test" />
-        <item itemvalue="JUnit.HelloControllerTest" />
-        <item itemvalue="JUnit.springboot in freelec-springboot-webservice.test" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675426186063</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="plain jar 파일 생성 방지">
+      <created>1675426193671</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675426193671</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
